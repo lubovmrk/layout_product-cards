@@ -51,13 +51,6 @@
     margin: 0 16px 24px;
   }
 
-  &__stars {
-    display: flex;
-    width: 96px;
-    height: 16px;
-    justify-content: space-between;
-  }
-
   &__review {
     font-weight: 400;
     font-size: 10px;
@@ -110,10 +103,10 @@
     text-transform: uppercase;
     text-decoration: none;
     margin: 0 16px 16px;
-  }
 
-  &__button:hover {
-    background-color: #fff;
-    color: #00acdc;
+    &:hover {
+      background-color: #fff;
+      color: #00acdc;
+    }
   }
 }
