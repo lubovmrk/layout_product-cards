@@ -1,9 +1,8 @@
-.product-card {
+.card {
   display: flex;
   flex-direction: column;
 
   width: 200px;
-  height: 408px;
 
   border: 1px solid #f3f3f3;
   border-radius: 5px;
@@ -47,7 +46,24 @@
     width: 166px;
     height: 16px;
 
+    justify-content: space-between;
+
     margin: 0 16px 24px;
+  }
+
+  &__stars {
+    display: flex;
+    width: 96px;
+    height: 16px;
+    justify-content: space-between;
+  }
+
+  &__review {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: right;
+    color: $main-text-color;
   }
 
   &__price {
@@ -55,6 +71,23 @@
     width: 166px;
     height: 18px;
     margin: 0 16px 16px;
+
+    justify-content: space-between;
+  }
+
+  &__price-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: $secondary-text-color;
+  }
+
+  &__price-value {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    color: $main-text-color;
   }
 
   &__button {
@@ -65,15 +98,17 @@
     width: 166px;
     height: 40px;
     border: 1px solid #00acdc;
+    box-sizing: border-box;
     border-radius: 5px;
     background-color: #00acdc;
-    color: #ffffff;
+    color: #fff;
 
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
+    text-decoration: none;
     margin: 0 16px 16px;
   }
 
