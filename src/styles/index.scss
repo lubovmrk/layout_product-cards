@@ -1,3 +1,6 @@
-body {
-  margin: 0;
-}
+@import 'utils/variables';
+@import 'blocks/normalize';
+@import 'blocks/product-card';
+@import 'blocks/price';
+@import 'blocks/rating';
+@import 'blocks/stars';

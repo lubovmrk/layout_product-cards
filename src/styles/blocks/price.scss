@@ -1,0 +1,18 @@
+.price {
+  justify-content: space-between;
+
+  &__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: $secondary-text-color;
+  }
+
+  &__values {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    color: $main-text-color;
+  }
+}

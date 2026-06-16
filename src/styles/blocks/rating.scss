@@ -1,0 +1,11 @@
+.rating {
+  justify-content: space-between;
+
+  &__review {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: right;
+    color: $main-text-color;
+  }
+}
